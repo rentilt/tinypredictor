@@ -18,7 +18,7 @@ Overview of the representation of the game state considered:
 This leads to each game state being represented by a 21x4 image. 
 
 ## Model
-![image info](./pictures/model.png)
+![image info](./images/model.png)
 
 ## TODO(s):
 - Get the state of the game from an arbitrary instant of each game instead of just the final game state (Important)
