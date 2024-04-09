@@ -7,7 +7,9 @@ EPOCHS = 100
 
 def train():
     model = get_model()
-
+    model.build()
+    print(model.summary())
+    exit()
     X = np.load('dataset.npy')
     y = np.load('targets.npy')
     X = X.reshape((X.shape[0], X.shape[1], X.shape[2], 1))

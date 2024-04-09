@@ -6,7 +6,7 @@ def get_model():
     model = Sequential()
 
     # convolution 
-    model.add(Conv2D(64, kernel_size=(3,3), strides=(1,1), activation='relu'))
+    model.add(Conv2D(64, kernel_size=(3,3), strides=(1,1), activation='relu', input_shape=(21,4,1)))
     model.add(MaxPooling2D(pool_size=(2,2)))
 
     # fc
